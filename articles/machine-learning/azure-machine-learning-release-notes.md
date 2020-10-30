@@ -17,6 +17,17 @@ In this article, learn about Azure Machine Learning releases.  For the full SDK 
 
 See [the list of known issues](resource-known-issues.md) to learn about known bugs and workarounds.
 
+## 2020-11-09
+
+### Azure Machine Learning studio UI
++ **Experimentation UI Custom Views**
+  + The Azure Machine Learning Experimentation UI now allows users to explicitly save to the cloud the edits to their Experiment view or Runs list (column edits to table, filters, run selections and chart modifications). Users can now organize and keep track of their runs and run comparisons by using ‘Custom Views’. When users edit their experiment view or runs list view4, they want to save their view and share it with colleagues for collaboration and feedback. The AML Experimentation UI  enables users to create and modify new ‘custom views’ or save changes to existing views. Users with access to the Workspace also have access to view or edit the custom views created for the Experiments.  
+  
++ **Experimentation UI Cross-experiment Run Comparisons**
+  + The Cross-Experiment Runs List and Run Comparisons feature would enable users to view, filter and graphically compare and visualize runs on the charts across some or all their experiments in a Workspace. Users would be able to monitor their run progress, status and compare run performance which are essential tasks for both administrators and data scientists performing machine learning tasks. Users would also be able to make customizations to their Custom views which they can then save and share with colleagues for feedback/collaboration.
+
+
+
 ## 2020-10-26
 
 ### Azure Machine Learning SDK for Python v1.17.0
