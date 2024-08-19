@@ -28,17 +28,15 @@ Use this article to learn how to provide your own image data for GPT-4 Turbo wit
 - An Azure OpenAI resource with the GPT-4 Turbo with Vision model deployed. For more information about model deployment, see the [resource deployment guide](../../ai-services/openai/how-to/create-resource.md).
 - Be sure that you're assigned at least the [Cognitive Services Contributor role](../../ai-services/openai/how-to/role-based-access-control.md#cognitive-services-contributor) for the Azure OpenAI resource. 
 - An Azure AI Search resource. See [create an Azure AI Search service in the portal](/azure/search/search-create-service-portal). If you don't have an Azure AI Search resource, you're prompted to create one when you add your data source later in this guide.
-- An [AI Studio hub](../how-to/create-azure-ai-resource.md) with your Azure OpenAI resource and Azure AI Search resource added as connections. 
-
 
 ## Deploy a GPT-4 Turbo with Vision model
 
 1. Sign in to [Azure AI Studio](https://ai.azure.com) and select the hub you'd like to work in.
-1. On the left nav menu, select **AI Services**. Select the **Try out GPT-4 Turbo** panel.
-1. On the gpt-4 page, select **Deploy**. In the window that appears, select your Azure OpenAI resource. Select `vision-preview` as the model version.
+1. On the left nav menu, select **Azure OpenAI**. Select an Azure OpenAI Resource.
+1. On the deployments page, select **Deploy base model**. In the window that appears, select gpt-4 model. Select `turbo-2024-04-09` as the model version.
 1. Select **Deploy**.
-1. Next, go to your new model's page and select **Open in playground**. In the chat playground, the GPT-4 deployment you created should be selected in the **Deployment** dropdown.
-    :::image type="content" source="../media/quickstarts/multimodal-vision/chat-multi-modal-image-select.png" alt-text="Screenshot of the chat playground with mode and deployment highlighted." lightbox="../media/quickstarts/multimodal-vision/chat-multi-modal-image-select.png":::
+1. Next, go to your new deployment detail's page and select **Open in playground**. In the chat playground, the GPT-4 deployment you created should be selected in the **Deployment** dropdown.
+    :::image type="content" source="../media/quickstarts/multimodal-vision/aoai-image1.png" alt-text="Screenshot of the chat playground with mode and deployment highlighted." lightbox="../media/quickstarts/multimodal-vision/aoai-image1.png":::
     
 ## Select your image data source
 
